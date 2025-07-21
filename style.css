@@ -433,22 +433,10 @@ position: relative;
     width: 80%;
 }
 
-.about-content{
-    width: 100%;
-    max-width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 2rem 1rem;
-    text-align: center;
-}
+
+
 .about{
-    flex: 0 0 100%;
-    min-width: auto;
-    width: 100%;
-    max-width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    padding-bottom: 1rem;
+    width: 100vw;    
     background-color: var(--secondary-bg-color);
 }
 
@@ -457,7 +445,7 @@ position: relative;
     font-size: 8rem;
 }
 .about-content p{
-    
+    width: 100vw;    
     font-size: 1.8rem;
     color: var(--text-color);
     line-height: 1.8;
@@ -485,23 +473,12 @@ position: relative;
  }
  .personal-info .row{
     padding: 30px;
-    max-width: 800px;
+    max-width: 500px;
     min-height: 50%;
     
  }
 
- .personal-info .row .info-item{
-    display: grid;
-    font-size: 2.3rem ;
-    border: 2px solid var(--main-color);
-    padding: 10px;
-    max-width: 600px;
-    margin-top: 2rem;
-    border-radius: 5px;
-    box-shadow: 0 0 6px var(--main-color);
-    text-align: left;
-    
- }
+ 
 
 
  /* -----portfolio----- */
@@ -764,6 +741,8 @@ form .btn2{
         margin: 2rem 4rem 6rem 4rem;
         padding: 20px;
     }
-    
+    .copyright{
+        text-align: center;
+    }
 
 }
